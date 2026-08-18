@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - SPDX-FileCopyrightText: 2026 Alexandre Luvizotti Lopes
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<path fill="#fff" d="M12 3.2 3.5 10.4a.8.8 0 0 0-.3.6V20a1 1 0 0 0 1 1h5.2v-6.2h5.2V21H20.8a1 1 0 0 0 1-1v-9a.8.8 0 0 0-.3-.6L12 3.2z"/>
+</svg>

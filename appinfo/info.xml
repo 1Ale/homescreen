@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+  - SPDX-FileCopyrightText: 2026 Alexandre Luvizotti Lopes
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>homescreen</id>
+	<name>Home</name>
+	<name lang="pt-br">Início</name>
+	<summary>A home screen with every app available to you</summary>
+	<summary lang="pt-br">Uma tela inicial com todos os apps disponíveis para você</summary>
+	<description><![CDATA[Home shows the same apps as the Nextcloud app menu, as a full-page grid.
+
+Use it as a regular app, or set it as the default app so it becomes the first screen after login.
+
+The list, order, icons and unread badges come from Nextcloud itself — including the user's app order and any extra navigation entries (for example External sites).
+]]></description>
+	<description lang="pt-br"><![CDATA[O Início mostra os mesmos apps do menu de aplicativos do Nextcloud, em uma grade de tela cheia.
+
+Use como um app comum, ou defina como app padrão para ser a primeira tela após o login.
+
+A lista, a ordem, os ícones e os avisos de não lidas vêm do próprio Nextcloud — inclusive a ordem de apps do usuário e entradas extras de navegação (por exemplo Sites externos).
+]]></description>
+	<version>1.0.1</version>
+	<licence>AGPL-3.0-or-later</licence>
+	<author mail="alexandre@lopes.eng.br" homepage="https://lopes.eng.br">Alexandre Luvizotti Lopes</author>
+	<namespace>HomeScreen</namespace>
+	<documentation>
+		<user>https://github.com/1Ale/homescreen#readme</user>
+		<admin>https://github.com/1Ale/homescreen#readme</admin>
+	</documentation>
+	<category>customization</category>
+	<website>https://github.com/1Ale/homescreen</website>
+	<bugs>https://github.com/1Ale/homescreen/issues</bugs>
+	<repository type="git">https://github.com/1Ale/homescreen.git</repository>
+	<dependencies>
+		<php min-version="8.2"/>
+		<nextcloud min-version="34" max-version="34"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<name>Home</name>
+			<route>homescreen.page.index</route>
+			<icon>app.svg</icon>
+			<order>-8</order>
+		</navigation>
+	</navigations>
+</info>
