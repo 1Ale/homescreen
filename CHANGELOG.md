@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## 1.0.2 – 2026-08-19
+
+### Added
+
+- App Store screenshot
+
 ## 1.0.1 – 2026-08-18
 
 ### Changed

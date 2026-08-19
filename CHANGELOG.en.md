@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 – 2026-08-19
+
+### Added
+
+- App Store screenshot
+
 ## 1.0.1 – 2026-08-18
 
 ### Changed
