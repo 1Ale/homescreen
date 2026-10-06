@@ -22,7 +22,7 @@ Use como um app comum, ou defina como app padrão para ser a primeira tela após
 
 A lista, a ordem, os ícones e os avisos de não lidas vêm do próprio Nextcloud — inclusive a ordem de apps do usuário e entradas extras de navegação (por exemplo Sites externos).
 ]]></description>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<licence>AGPL-3.0-or-later</licence>
 	<author mail="alexandre@lopes.eng.br" homepage="https://lopes.eng.br">Alexandre Luvizotti Lopes</author>
 	<namespace>HomeScreen</namespace>
