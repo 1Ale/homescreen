@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 – 2026-10-06
+
+### Changed
+
+- Support Nextcloud 34 and 35
+
 ## 1.0.2 – 2026-08-19
 
 ### Added

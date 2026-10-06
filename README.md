@@ -1,6 +1,6 @@
 # Home
 
-A Nextcloud 34 app that shows the same apps as the header app menu, as a full-page grid.
+A Nextcloud 34 and 35 app that shows the same apps as the header app menu, as a full-page grid.
 
 Put this folder in `custom_apps/homescreen` (the folder name must match the app id) and enable it:
 
