@@ -17,7 +17,7 @@
 	<?php } else { ?>
 		<ul class="homescreen__grid">
 			<?php foreach ($_['apps'] as $app) { ?>
-				<li>
+				<li class="homescreen__app--<?php p($app['id']); ?>">
 					<a class="homescreen__app"
 					   href="<?php p($app['href']); ?>"
 					   <?php if (!empty($app['external'])) { ?>target="_blank" rel="noopener noreferrer"<?php } ?>
